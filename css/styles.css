@@ -472,7 +472,7 @@ color: #f8c146;
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -483,11 +483,16 @@ color: #f8c146;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    height: 300px;
+    width: 360px;
 }
 
 .portfolio-box img {
-    width: 100%;
+    width: 360px;
+    height: 300px;
+
     transition: .5s ease;
+    
 }
 
 .portfolio-box:hover img {
